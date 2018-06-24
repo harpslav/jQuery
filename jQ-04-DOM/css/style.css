@@ -1,0 +1,29 @@
+.color-div {
+    padding: 20px;
+    background-color: coral;
+}
+
+.img {
+    width: 100px;
+    outline: 1px solid red;
+    outline-offset: 5px;
+}
+
+.img-transform {
+    transform: rotate(30deg);
+    width: 100px;
+}
+
+#second {
+    transition: all 2s;
+    font-size: 4rem;
+    color: green;
+    text-decoration: underline;
+}
+
+#second.ladny-napoj {
+    font-size: 1.6rem;
+    color: red;
+    opacity: .4;
+}
+/* skrócony zapis dla:    opacity: 0.4;*/
